@@ -16,7 +16,7 @@ def int_tensor_to_str(t):
 	return s
 
 
-def enwik9(num_train=int(90e6), num_val=int(5e6), num_test=int(5e6), path='data/enwik9', device='cpu'):
+def enwik9(num_train=int(90e6), num_val=int(5e6), num_test=int(5e6), path='data/enwik9.txt', device='cpu'):
 	# enwik9 has 997,520,893 characters
 	# default takes the first 1/10 of enwik9 and split into train/val/test = 90/5/5
 
